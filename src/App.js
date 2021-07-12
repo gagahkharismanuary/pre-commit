@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
+          role="button"
         >
           Learn React
         </a>
