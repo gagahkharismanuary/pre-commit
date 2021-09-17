@@ -8,11 +8,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit 
+          Edit
           {' '}
           <code>src/App.js</code>
           {' '}
           and save to reload.
+          dia
         </p>
         <a
           className="App-link"
