@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 # npm run pre-commit
-yarn run style:lint
+yarn run style:all

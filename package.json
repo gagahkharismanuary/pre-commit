@@ -18,7 +18,9 @@
     "eject": "react-scripts eject",
     "pre-commit": "lint-staged",
     "lint": "eslint",
-    "pretest": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix"
+    "pretest": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix",
+    "style:all": "npm run style:lint && npm run style:prettier",
+    "style:lint": "eslint '**/*.{js,jsx,ts,tsx}'"
   },
   "husky": {
     "hooks": {
