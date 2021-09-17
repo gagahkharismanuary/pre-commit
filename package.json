@@ -19,6 +19,7 @@
     "pre-commit": "lint-staged",
     "lint": "eslint",
     "pretest": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix",
+    "style:prettier": "prettier --check '**/*.{js,jsx,ts,tsx}'",
     "style:all": "npm run style:lint && npm run style:prettier",
     "style:lint": "eslint '**/*.{js,jsx,ts,tsx}'"
   },
